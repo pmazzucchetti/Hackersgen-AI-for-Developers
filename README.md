@@ -1,316 +1,221 @@
-# Guida Completa: Creare un'App Vue da Zero
+# Hackersgen - AI for Developers
 
-Questa guida ti accompagnerà passo dopo passo nella creazione e nell'esecuzione di un'applicazione Vue.js.
+Benvenuto nel repository del corso **AI for Developers**!
 
-## Prerequisiti
+## 📱 Il Progetto: Un'App Quiz
 
-Prima di iniziare, assicurati di avere installato sul tuo computer:
+Durante il corso costruiremo insieme un'applicazione web completa per gestire quiz. **Questo è solo un pretesto** per vedere l'AI all'opera in un contesto reale.
 
-- **Node.js** (versione 16 o superiore): [Scarica qui](https://nodejs.org/)
-- **npm** (viene installato automaticamente con Node.js)
+Costruiremo:
+- **Lezione 2** Frontend con Vue.js
+- **Lezione 3** Backend con Python e Flask
+- **Lezione 4** Prossimamente
 
-Per verificare se hai già installato questi strumenti, apri il terminale e digita:
+**L'importante non è l'app in sé, ma imparare a usare l'AI per svilupparla.**
+
+## 🛠️ Strumenti AI che Useremo
+
+Ogni lezione usa strumenti AI diversi per mostrarti approcci differenti allo sviluppo assistito dall'AI.
+
+### Lezione 2: Cursor AI (Frontend)
+**Cursor** è un editor di codice con AI integrata potentissima. Nella lezione 2 esploreremo tutte le sue funzionalità:
+
+**Obiettivo**: Vedere come un IDE AI completo può accelerare lo sviluppo.
+
+### Lezione 3: Gemini CLI (Backend)
+**Gemini CLI** è un Agent AI da terminale di Google. Nella lezione 3 useremo:
+- 💻 **Gemini CLI**: Agent AI da riga di comando per generare e spiegare codice Python
+- 📝 **Cursor come editor**: Solo per scrivere codice (senza funzionalità AI)
+
+**Perché?**
+- Impari un approccio diverso (AI separata dall'editor)
+- Vedi come funziona un Agent AI da terminale
+- Confronti due filosofie di lavoro con l'AI
+
+**Obiettivo**: Capire che l'AI può essere integrata (Cursor) o separata (Gemini CLI) - entrambi gli approcci sono validi!
+
+## 📚 Struttura della repository
+
+```
+Hackersgen-AI-for-Developers/
+├── lezione2/          # Frontend con Vue.js + AI
+├── lezione3/          # Backend con Flask + AI
+├── lezione4/          # Prossimamente
+└── README.md          # Questa guida
+```
+
+## 🎓 Lezioni Disponibili
+
+### 📁 Lezione 2: Frontend con AI - Vue.js + Cursor
+
+**Strumento AI: Cursor (IDE AI integrato)**
+
+**Focus AI:**
+- Esplorare TUTTE le funzionalità AI di Cursor
+- Come usare un IDE AI per creare componenti Vue velocemente
+- Prompt efficaci per generare codice
+- Debugging di errori Vue con AI integrata nell'editor
+- Quando accettare i suggerimenti dell'AI e quando modificarli
+
+**Cosa costruirai:**
+Un'interfaccia Vue.js per gestire quiz, sfruttando Cursor AI per scrivere meno codice manualmente.
+
+**Come iniziare:**
+1. Vai nella cartella `lezione2/`
+2. Leggi il `README.md` che spiega Vue e Cursor
+3. Sperimenta con tutte le funzionalità AI di Cursor
+
+**Prerequisiti:**
+- Node.js installato
+- Cursor installato
+- Curiosità di sperimentare con un IDE AI!
+
+---
+
+### 🐍 Lezione 3: Backend con AI - Flask + Gemini CLI
+
+**Strumento AI: Gemini CLI (Agent AI da terminale)**
+
+**Focus AI:**
+- Usare Gemini CLI da terminale per generare codice Python
+- Workflow AI separata dall'editor (diverso da Cursor!)
+- Far spiegare concetti come API, JSON, HTTP a Gemini
+- Debugging di errori Python con Gemini CLI
+- Confrontare approccio "AI integrata" vs "AI separata"
+
+**Cosa costruirai:**
+Un backend Flask che gestisce i dati dei quiz, usando Gemini CLI per accelerare lo sviluppo.
+
+**Come iniziare:**
+1. Vai nella cartella `lezione3/`
+2. Leggi il `README.md` che spiega Python, Flask e Gemini CLI
+3. Installa Gemini CLI e sperimenta con comandi da terminale
+
+**Prerequisiti:**
+- Python 3.10+ installato
+- Gemini CLI installato
+- Cursor come editor (solo per scrivere codice)
+- Voglia di provare un approccio AI diverso dalla lezione 2!
+
+---
+
+### 🔗 Lezione 4: Integrazione con AI
+
+**Status:** ⏳ Prossimamente
+
+Il codice e le istruzioni saranno disponibili a breve!
+
+---
+
+## Come Usare Questa Repository
+
+### Se Segui il Corso in Live
+
+1. **Durante la lezione**: Segui le spiegazioni del docente
+2. **Dopo la lezione**: Usa i README di ogni cartella come riferimento
+3. **Se hai problemi**: Consulta le sezioni "Risolvere Problemi Comuni" nei README
+4. **Se sei rimasto indietro**: Puoi scaricare/copiare il codice da questa repository per recuperare
+
+### Aggiornamenti
+
+Questa repository viene aggiornata progressivamente:
+- ✅ Lezione 2: Disponibile
+- 🚧 Lezione 3: In corso
+- ⏳ Lezione 4: In arrivo
+
+Man mano che le lezioni vengono spiegate in aula, pubblicheremo il codice e le istruzioni corrispondenti.
+
+## Scaricare o Clonare la Repository
+
+### Opzione 1: Download ZIP (Più Semplice)
+
+1. Clicca sul pulsante verde **"Code"** in alto
+2. Seleziona **"Download ZIP"**
+3. Estrai il file ZIP sul tuo computer
+4. Apri la cartella con Cursor o il tuo editor preferito
+
+### Opzione 2: Git Clone (Se conosci Git)
 
 ```bash
-node --version
-npm --version
+git clone <url-repository>
 ```
 
-Se vedi i numeri di versione, sei pronto per iniziare!
+### Aggiornare il Codice
 
-## Creazione del Progetto
+Se hai già scaricato la repository e vuoi gli ultimi aggiornamenti:
 
-Esistono due metodi principali per creare un progetto Vue. Ti consigliamo **Vite** perché è più veloce e moderno.
+**Con ZIP:**
+- Scarica nuovamente il ZIP e sostituisci i file
 
-### Metodo 1: Con Vite (Consigliato)
-
-1. Apri il terminale nella cartella dove vuoi creare il progetto
-
-2. Esegui il comando:
+**Con Git:**
 ```bash
-npm create vue@latest
+git pull origin main
 ```
 
-3. Ti verranno fatte alcune domande. Ecco le risposte consigliate per iniziare:
-   - **Project name**: il nome del tuo progetto (es. `my-vue-app`)
-   - **Add TypeScript?**: No (per ora)
-   - **Add JSX Support?**: No
-   - **Add Vue Router?**: Yes (se vuoi creare più pagine)
-   - **Add Pinia?**: Yes (per gestire lo stato dell'app)
-   - **Add Vitest?**: No (per ora)
-   - **Add ESLint?**: Yes (per mantenere il codice pulito)
-   - **Add Prettier?**: Yes (per formattare il codice)
-
-4. Entra nella cartella del progetto:
-```bash
-cd my-vue-app
-```
+## 🤝 La Filosofia: AI come Partner, Non come Sostituto
 
-5. Installa le dipendenze:
-```bash
-npm install
-```
+### Quando Usare l'AI ✅
 
-### Metodo 2: Con Vue CLI
+- Per **spiegare** concetti che non capisci
+- Per **generare** codice boilerplate ripetitivo
+- Per **suggerire** soluzioni a problemi comuni
+- Per **debuggare** errori complessi
+- Per **imparare** nuove tecnologie velocemente
+- Per **accelerare** task noiosi (es. scrivere config files)
 
-1. Installa Vue CLI globalmente (solo la prima volta):
-```bash
-npm install -g @vue/cli
-```
+### Quando NON Fidarti Ciecamente dell'AI ⚠️
 
-2. Crea il progetto:
-```bash
-vue create my-vue-app
-```
+- **Verifica sempre** il codice generato - l'AI può sbagliare!
+- **Capisci** cosa fa il codice prima di usarlo
+- **Non copiare** senza leggere - potresti introdurre bug o vulnerabilità
+- **Testa** sempre il codice generato dall'AI
+- **Impara** dai suggerimenti, non limitarti a copiarli
 
-3. Seleziona "Default" per una configurazione base, oppure "Manually select features" per personalizzare
-
-4. Entra nella cartella del progetto:
-```bash
-cd my-vue-app
-```
-
-## Struttura del Progetto
-
-Dopo la creazione, troverai questa struttura di cartelle:
-
-```
-my-vue-app/
-├── node_modules/      # Librerie e dipendenze (non modificare)
-├── public/            # File statici pubblici
-├── src/               # Il tuo codice sorgente
-│   ├── assets/        # Immagini, CSS, etc.
-│   ├── components/    # Componenti Vue riutilizzabili
-│   ├── App.vue        # Componente principale
-│   └── main.js        # Punto di ingresso dell'app
-├── index.html         # File HTML principale
-├── package.json       # Configurazione del progetto
-└── vite.config.js     # Configurazione di Vite
-```
-
-## Avviare l'Applicazione
-
-Per avviare il server di sviluppo e vedere la tua app in azione:
-
-```bash
-npm run dev
-```
-
-Il terminale mostrerà un messaggio simile a:
-
-```
-VITE v5.x.x  ready in 500 ms
-
-➜  Local:   http://localhost:5173/
-➜  Network: use --host to expose
-```
-
-Apri il browser e vai all'indirizzo indicato (solitamente `http://localhost:5173/`). Vedrai la tua app Vue in esecuzione!
-
-## Comandi Principali
-
-- **Avviare il server di sviluppo**:
-  ```bash
-  npm run dev
-  ```
-
-- **Creare una build di produzione**:
-  ```bash
-  npm run build
-  ```
-  Questo comando crea una versione ottimizzata dell'app nella cartella `dist/`
-
-- **Visualizzare la build di produzione**:
-  ```bash
-  npm run preview
-  ```
-
-- **Formattare il codice**:
-  ```bash
-  npm run format
-  ```
-
-- **Controllare errori di sintassi**:
-  ```bash
-  npm run lint
-  ```
-
-## Modificare l'Applicazione
-
-Per iniziare a personalizzare la tua app:
-
-1. Apri il file `src/App.vue` con il tuo editor di codice preferito
-
-2. Modifica il template HTML all'interno del tag `<template>`
-
-3. Salva il file
-
-4. Il browser si aggiornerà automaticamente mostrando le modifiche (hot reload)
-
-### Esempio di Modifica
-
-Apri `src/App.vue` e sostituisci il contenuto con:
-
-```vue
-<template>
-  <div id="app">
-    <h1>La Mia Prima App Vue!</h1>
-    <p>Messaggio: {{ messaggio }}</p>
-    <button @click="cambiaMessaggio">Clicca qui</button>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      messaggio: 'Ciao Vue!'
-    }
-  },
-  methods: {
-    cambiaMessaggio() {
-      this.messaggio = 'Hai cliccato il bottone!'
-    }
-  }
-}
-</script>
+### Il Giusto Bilanciamento ⚖️
 
-<style>
-#app {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 60px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-</style>
-```
-
-## Creare Nuovi Componenti
-
-1. Crea un nuovo file nella cartella `src/components/`, ad esempio `MioComponente.vue`
-
-2. Scrivi la struttura del componente:
-
-```vue
-<template>
-  <div class="mio-componente">
-    <h2>{{ titolo }}</h2>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'MioComponente',
-  props: {
-    titolo: String
-  }
-}
-</script>
-
-<style scoped>
-.mio-componente {
-  padding: 20px;
-  border: 1px solid #ccc;
-}
-</style>
-```
-
-3. Importa e usa il componente in `App.vue`:
-
-```vue
-<script>
-import MioComponente from './components/MioComponente.vue'
-
-export default {
-  components: {
-    MioComponente
-  }
-}
-</script>
-
-<template>
-  <MioComponente titolo="Benvenuto!" />
-</template>
-```
-
-## Risolvere Problemi Comuni
-
-### Consiglio Generale
-
-**Leggi sempre attentamente i messaggi di errore!** Gli errori in JavaScript e nei tool di sviluppo sono generalmente molto parlanti e indicano chiaramente cosa non va.
-
-Se non riesci a capire l'errore:
-- **Copia l'errore completo** e incollalo su Google - troverai quasi sempre qualcuno che ha avuto lo stesso problema
-- Usa **ChatGPT o altri assistenti AI** - incolla l'errore e chiedi una spiegazione e una soluzione
-- Cerca su **Stack Overflow** - è pieno di soluzioni a problemi comuni
-
-La maggior parte dei problemi che incontrerai sono già stati risolti da altri sviluppatori!
-
-### Il server non parte
-
-- Verifica che la porta non sia già in uso
-- Prova a eliminare la cartella `node_modules` e il file `package-lock.json`, poi esegui `npm install` di nuovo
-
-### Errori durante l'installazione
-
-- Assicurati di avere una versione aggiornata di Node.js
-- Prova a pulire la cache di npm: `npm cache clean --force`
-
-### Le modifiche non si vedono nel browser
-
-- Assicurati di aver salvato il file
-- Ricarica la pagina manualmente con Ctrl+R (o Cmd+R su Mac)
-- Riavvia il server di sviluppo
-
-### Errore "running scripts is disabled" su Windows (PowerShell)
-
-Se su Windows ricevi questo errore: `File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system`, segui questi passaggi:
-
-1. **Apri PowerShell come Amministratore**
-   - Cerca "PowerShell" nel menu Start
-   - Fai clic destro su "Windows PowerShell"
-   - Seleziona "Esegui come amministratore"
-
-2. **Verifica la policy corrente** (opzionale):
-   ```powershell
-   Get-ExecutionPolicy
-   ```
-   Se restituisce "Restricted", è necessario modificarla.
-
-3. **Modifica la policy di esecuzione**:
-   ```powershell
-   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-   ```
-   Conferma digitando `Y` quando richiesto.
-
-4. **Verifica la modifica** (opzionale):
-   ```powershell
-   Get-ExecutionPolicy -List
-   ```
-   Dovresti vedere "CurrentUser" impostato su "RemoteSigned".
-
-Dopo questi passaggi, i comandi npm dovrebbero funzionare correttamente. L'impostazione "RemoteSigned" è un buon compromesso tra sicurezza e funzionalità.
-
-## Risorse Utili
-
-- [Documentazione Ufficiale Vue.js](https://vuejs.org/)
-- [Vue Router](https://router.vuejs.org/) - Per gestire le rotte
-- [Pinia](https://pinia.vuejs.org/) - Per gestire lo stato globale
-- [Vite Documentation](https://vitejs.dev/) - Documentazione di Vite
+**Buono**: "Cursor, crea un componente Vue per mostrare una lista di quiz"
+→ Poi leggi, capisci e modifica il codice generato
+
+**Cattivo**: Chiedi all'AI di scrivere tutta l'app e copi tutto senza capire
+→ Non impari nulla e non sai risolvere problemi
+
+**L'obiettivo è imparare ad essere sviluppatori migliori, non dipendenti dall'AI.**
+
+## Hai Bisogno di Aiuto?
+
+### Problemi Comuni
+
+Ogni lezione ha una sezione **"Risolvere Problemi Comuni"** nel proprio README. Consulta prima quella sezione.
+
+### Strategie per Risolvere Problemi (con AI!)
+
+1. **Leggi attentamente l'errore**: Capisci cosa dice prima di chiedere all'AI
+2. **Usa ChatGPT/Cursor**:
+   - Copia l'errore completo
+   - Spiega cosa stavi facendo
+   - Chiedi una spiegazione E una soluzione
+3. **Cerca su Google**: L'AI non sa tutto, cerca anche online
+4. **Consulta Stack Overflow**: Confronta soluzioni umane e AI
+5. **Chiedi al docente**: Discuti insieme le soluzioni proposte dall'AI
+
+### Link Utili
+
+- [Documentazione Vue.js](https://vuejs.org/)
+- [Documentazione Flask](https://flask.palletsprojects.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [MDN Web Docs](https://developer.mozilla.org/) - Per HTML, CSS, JavaScript
+
+## Contribuire
+
+Hai trovato un errore o vuoi suggerire un miglioramento?
+
+1. Segnala un problema (issue) nella repository
+2. Oppure parlane con il docente durante la lezione
 
 ## Prossimi Passi
 
-Ora che hai creato la tua prima app Vue, puoi:
+ 🚀 **Sperimenta**: Non aver paura di chiedere all'AI, sbagliare e imparare!
 
-1. Esplorare i componenti Vue e creare componenti personalizzati
-2. Aggiungere Vue Router per creare un'app multi-pagina
-3. Utilizzare Pinia per gestire lo stato dell'applicazione
-4. Integrare API esterne per recuperare dati
-5. Esplorare librerie di componenti UI come Vuetify o Element Plus
+**Ricorda**: L'obiettivo non è solo costruire un'app, ma imparare a collaborare efficacemente con l'AI.
 
-Buon coding! 🚀
+Buon coding e buon divertimento! 💻🤖
