@@ -240,6 +240,17 @@ export default {
 
 ## Risolvere Problemi Comuni
 
+### Consiglio Generale
+
+**Leggi sempre attentamente i messaggi di errore!** Gli errori in JavaScript e nei tool di sviluppo sono generalmente molto parlanti e indicano chiaramente cosa non va.
+
+Se non riesci a capire l'errore:
+- **Copia l'errore completo** e incollalo su Google - troverai quasi sempre qualcuno che ha avuto lo stesso problema
+- Usa **ChatGPT o altri assistenti AI** - incolla l'errore e chiedi una spiegazione e una soluzione
+- Cerca su **Stack Overflow** - è pieno di soluzioni a problemi comuni
+
+La maggior parte dei problemi che incontrerai sono già stati risolti da altri sviluppatori!
+
 ### Il server non parte
 
 - Verifica che la porta non sia già in uso
@@ -255,6 +266,35 @@ export default {
 - Assicurati di aver salvato il file
 - Ricarica la pagina manualmente con Ctrl+R (o Cmd+R su Mac)
 - Riavvia il server di sviluppo
+
+### Errore "running scripts is disabled" su Windows (PowerShell)
+
+Se su Windows ricevi questo errore: `File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system`, segui questi passaggi:
+
+1. **Apri PowerShell come Amministratore**
+   - Cerca "PowerShell" nel menu Start
+   - Fai clic destro su "Windows PowerShell"
+   - Seleziona "Esegui come amministratore"
+
+2. **Verifica la policy corrente** (opzionale):
+   ```powershell
+   Get-ExecutionPolicy
+   ```
+   Se restituisce "Restricted", è necessario modificarla.
+
+3. **Modifica la policy di esecuzione**:
+   ```powershell
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   ```
+   Conferma digitando `Y` quando richiesto.
+
+4. **Verifica la modifica** (opzionale):
+   ```powershell
+   Get-ExecutionPolicy -List
+   ```
+   Dovresti vedere "CurrentUser" impostato su "RemoteSigned".
+
+Dopo questi passaggi, i comandi npm dovrebbero funzionare correttamente. L'impostazione "RemoteSigned" è un buon compromesso tra sicurezza e funzionalità.
 
 ## Risorse Utili
 
