@@ -123,7 +123,7 @@ Questa repository viene aggiornata progressivamente:
 - 🚧 Lezione 3: In corso
 - ⏳ Lezione 4: In arrivo
 
-Man mano che le lezioni vengono spiegate in aula, pubblicheremo il codice e le istruzioni corrispondenti.
+Man mano che le lezioni vengono spiegate in live, pubblicheremo il codice e le istruzioni corrispondenti.
 
 ## Scaricare o Clonare la Repository
 
