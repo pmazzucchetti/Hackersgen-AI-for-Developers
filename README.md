@@ -2,14 +2,27 @@
 
 Benvenuto nel repository del corso **AI for Developers**!
 
+## 📑 Indice
+
+- [Il Progetto: Un'App Quiz](#-il-progetto-unapp-quiz)
+- [Strumenti AI che Useremo](#️-strumenti-ai-che-useremo)
+- [Struttura della repository](#-struttura-della-repository)
+- [Lezioni Disponibili](#-lezioni-disponibili)
+- [Come Usare Questa Repository](#come-usare-questa-repository)
+- [Scaricare o Clonare la Repository](#scaricare-o-clonare-la-repository)
+- [La Filosofia: AI come Partner, Non come Sostituto](#-la-filosofia-ai-come-partner-non-come-sostituto)
+- [Hai Bisogno di Aiuto?](#hai-bisogno-di-aiuto)
+- [Contribuire](#contribuire)
+- [Prossimi Passi](#prossimi-passi)
+
 ## 📱 Il Progetto: Un'App Quiz
 
 Durante il corso costruiremo insieme un'applicazione web completa per gestire quiz. **Questo è solo un pretesto** per vedere l'AI all'opera in un contesto reale.
 
 Costruiremo:
-- **Lezione 2** Frontend con Vue.js
-- **Lezione 3** Backend con Python e Flask
-- **Lezione 4** Prossimamente
+- **Episodio 2** Frontend con Vue.js
+- **Episodio 3** Backend con Python e Flask
+- **Episodio 4** Prossimamente
 
 **L'importante non è l'app in sé, ma imparare a usare l'AI per svilupparla.**
 
@@ -17,13 +30,13 @@ Costruiremo:
 
 Ogni lezione usa strumenti AI diversi per mostrarti approcci differenti allo sviluppo assistito dall'AI.
 
-### Lezione 2: Cursor AI (Frontend)
-**Cursor** è un editor di codice con AI integrata potentissima. Nella lezione 2 esploreremo tutte le sue funzionalità:
+### Episodio 2: Cursor AI (Frontend)
+**Cursor** è un editor di codice con AI integrata potentissima. Nell'episodio 2 esploreremo tutte le sue funzionalità:
 
 **Obiettivo**: Vedere come un IDE AI completo può accelerare lo sviluppo.
 
-### Lezione 3: Gemini CLI (Backend)
-**Gemini CLI** è un Agent AI da terminale di Google. Nella lezione 3 useremo:
+### Episodio 3: Gemini CLI (Backend)
+**Gemini CLI** è un Agent AI da terminale di Google. Nell'episodio 3 useremo:
 - 💻 **Gemini CLI**: Agent AI da riga di comando per generare e spiegare codice Python
 - 📝 **Cursor come editor**: Solo per scrivere codice (senza funzionalità AI)
 
@@ -38,15 +51,15 @@ Ogni lezione usa strumenti AI diversi per mostrarti approcci differenti allo svi
 
 ```
 Hackersgen-AI-for-Developers/
-├── lezione2/          # Frontend con Vue.js + AI
-├── lezione3/          # Backend con Flask + AI
-├── lezione4/          # Prossimamente
+├── episodio2/          # Frontend con Vue.js + AI
+├── episodio3/          # Backend con Flask + AI
+├── episodio4/          # Prossimamente
 └── README.md          # Questa guida
 ```
 
 ## 🎓 Lezioni Disponibili
 
-### 📁 Lezione 2: Frontend con AI - Vue.js + Cursor
+### 📁 Episodio 2: Frontend con AI - Vue.js + Cursor
 
 **Strumento AI: Cursor (IDE AI integrato)**
 
@@ -61,7 +74,7 @@ Hackersgen-AI-for-Developers/
 Un'interfaccia Vue.js per gestire quiz, sfruttando Cursor AI per scrivere meno codice manualmente.
 
 **Come iniziare:**
-1. Vai nella cartella `lezione2/`
+1. Vai nella cartella `episodio2/`
 2. Leggi il `README.md` che spiega Vue e Cursor
 3. Sperimenta con tutte le funzionalità AI di Cursor
 
@@ -72,7 +85,7 @@ Un'interfaccia Vue.js per gestire quiz, sfruttando Cursor AI per scrivere meno c
 
 ---
 
-### 🐍 Lezione 3: Backend con AI - Flask + Gemini CLI
+### 🐍 Episodio 3: Backend con AI - Flask + Gemini CLI
 
 **Strumento AI: Gemini CLI (Agent AI da terminale)**
 
@@ -87,7 +100,7 @@ Un'interfaccia Vue.js per gestire quiz, sfruttando Cursor AI per scrivere meno c
 Un backend Flask che gestisce i dati dei quiz, usando Gemini CLI per accelerare lo sviluppo.
 
 **Come iniziare:**
-1. Vai nella cartella `lezione3/`
+1. Vai nella cartella `episodio3/`
 2. Leggi il `README.md` che spiega Python, Flask e Gemini CLI
 3. Installa Gemini CLI e sperimenta con comandi da terminale
 
@@ -95,11 +108,11 @@ Un backend Flask che gestisce i dati dei quiz, usando Gemini CLI per accelerare 
 - Python 3.10+ installato
 - Gemini CLI installato
 - Cursor come editor (solo per scrivere codice)
-- Voglia di provare un approccio AI diverso dalla lezione 2!
+- Voglia di provare un approccio AI diverso dall'episodio 2!
 
 ---
 
-### 🔗 Lezione 4: Integrazione con AI
+### 🔗 Episodio 4: Integrazione con AI
 
 **Status:** ⏳ Prossimamente
 
@@ -119,9 +132,9 @@ Il codice e le istruzioni saranno disponibili a breve!
 ### Aggiornamenti
 
 Questa repository viene aggiornata progressivamente:
-- ✅ Lezione 2: Disponibile
-- 🚧 Lezione 3: In corso
-- ⏳ Lezione 4: In arrivo
+- ✅ Episodio 2: Disponibile
+- 🚧 Episodio 3: In corso
+- ⏳ Episodio 4: In arrivo
 
 Man mano che le lezioni vengono spiegate in live, pubblicheremo il codice e le istruzioni corrispondenti.
 
@@ -185,7 +198,7 @@ git pull origin main
 
 ### Problemi Comuni
 
-Ogni lezione ha una sezione **"Risolvere Problemi Comuni"** nel proprio README. Consulta prima quella sezione.
+Ogni episodio ha una sezione **"Risolvere Problemi Comuni"** nel proprio README. Consulta prima quella sezione.
 
 ### Strategie per Risolvere Problemi (con AI!)
 

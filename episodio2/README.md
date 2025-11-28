@@ -2,11 +2,27 @@
 
 Questa guida ti accompagnerà nella creazione di un'applicazione Vue.js **sfruttando l'intelligenza artificiale** come assistente di sviluppo.
 
-## 🎯 Focus di Questa Lezione
+## 📑 Indice
+
+- [Focus di Questa episodio](#-focus-di-questa-episodio)
+- [Prerequisiti](#prerequisiti)
+- [Usare Cursor come Assistente AI](#-usare-cursor-come-assistente-ai)
+- [Creazione del Progetto](#creazione-del-progetto)
+- [Struttura del Progetto](#struttura-del-progetto)
+- [Avviare l'Applicazione](#avviare-lapplicazione)
+- [Comandi Principali](#comandi-principali)
+- [Modificare l'Applicazione](#modificare-lapplicazione)
+- [Creare Nuovi Componenti](#creare-nuovi-componenti)
+- [Sviluppare con l'AI: Esempi Pratici](#-sviluppare-con-lai-esempi-pratici)
+- [Risolvere Problemi Comuni](#risolvere-problemi-comuni)
+- [Risorse Utili](#risorse-utili)
+- [Prossimi Passi](#prossimi-passi)
+
+## 🎯 Focus di Questa episodio
 
 **Non stai solo imparando Vue.js - stai imparando a usare l'AI per sviluppare più velocemente.**
 
-In questa lezione vedrai:
+In questo episodio vedrai:
 - Come l'AI può generare componenti Vue in secondi
 - Come usare Cursor per scrivere meno codice manualmente
 - Come far spiegare all'AI concetti Vue complessi
@@ -44,7 +60,7 @@ Se vedi i numeri di versione, sei pronto per iniziare!
 
 ### Esempi di Prompt Utili per Vue
 
-Durante questa lezione, potrai chiedere a Cursor:
+Durante questa episodio, potrai chiedere a Cursor:
 
 **Per imparare concetti:**
 - "Spiegami cosa fa `<script setup>` in Vue 3"
@@ -457,7 +473,7 @@ Dopo questi passaggi, i comandi npm dovrebbero funzionare correttamente. L'impos
 Ora che hai imparato a usare l'AI con Vue, puoi:
 
 1. **Sperimentare con Cursor**: Prova a creare componenti complessi con l'aiuto dell'AI
-2. **Passare alla Lezione 3**: Impara a usare l'AI per creare il backend Flask
+2. **Passare all'episodio 3**: Impara a usare l'AI per creare il backend Flask
 3. **Esplorare Vue + AI**: Chiedi all'AI di spiegarti Vue Router, Pinia, Composition API
 4. **Costruire qualcosa di tuo**: Usa quello che hai imparato per creare un progetto personale
 5. **Confrontare approcci**: Prova a scrivere codice manualmente e con l'AI - quando è meglio uno o l'altro?

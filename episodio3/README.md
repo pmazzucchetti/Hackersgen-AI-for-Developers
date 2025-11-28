@@ -2,11 +2,32 @@
 
 Questa guida ti accompagnerà nella creazione di un backend Python con Flask **sfruttando l'intelligenza artificiale** per accelerare lo sviluppo e imparare più velocemente.
 
-## 🎯 Focus di Questa Lezione
+## 📑 Indice
+
+- [Focus di Questa episodio](#-focus-di-questa-episodio)
+- [Prerequisiti](#prerequisiti)
+- [Cos'è pip?](#cosè-pip)
+- [Gemini CLI - L'Agent AI Autonomo da Terminale](#-gemini-cli---lagent-ai-autonomo-da-terminale)
+- [Ambiente Virtuale](#ambiente-virtuale)
+- [Installare le Dipendenze](#installare-le-dipendenze)
+- [Cos'è un'API?](#cosè-unapi)
+- [Struttura del Progetto Backend](#struttura-del-progetto-backend)
+- [Avviare il Server](#avviare-il-server)
+- [Testare le API](#testare-le-api)
+- [Usare Cursor come Editor (Senza AI)](#usare-cursor-come-editor-senza-ai)
+- [Sviluppare Backend con Gemini CLI: Esempi Pratici](#-sviluppare-backend-con-gemini-cli-esempi-pratici)
+- [Risolvere Problemi Comuni](#risolvere-problemi-comuni)
+- [Comandi Principali - Riepilogo](#comandi-principali---riepilogo)
+- [Workflow Tipico](#workflow-tipico)
+- [Debug e Testing](#debug-e-testing)
+- [Risorse Utili](#risorse-utili)
+- [Prossimi Passi](#prossimi-passi)
+
+## 🎯 Focus di Questo episodio
 
 **Non stai solo imparando Python e Flask - stai imparando a usare l'AI per sviluppare backend più velocemente.**
 
-In questa lezione vedrai:
+In questa episodio vedrai:
 - Come l'AI può generare API REST in pochi secondi
 - Come far spiegare dall'AI concetti come API, JSON, HTTP
 - Come debuggare errori Python con Gemini CLI
@@ -106,7 +127,7 @@ pip3 install nome-libreria
 
 ## 🤖 Gemini CLI - L'Agent AI Autonomo da Terminale
 
-**Questo è il cuore della lezione!** In questa lezione userai **Gemini CLI**, un agent AI autonomo da terminale sviluppato da Google - un approccio completamente diverso rispetto a Cursor della lezione 2.
+**Questo è il cuore dell'episodio!** In questo episodio userai **Gemini CLI**, un agent AI autonomo da terminale sviluppato da Google - un approccio completamente diverso rispetto a Cursor dell'episodio 2.
 
 Gemini CLI è un vero **agent autonomo** che può:
 - ✍️ Creare e modificare file automaticamente
@@ -114,7 +135,7 @@ Gemini CLI è un vero **agent autonomo** che può:
 - 🧠 Ragionare su cosa fare
 - ⚡ Agire in autonomia (con la tua supervisione)
 
-**Cursor in questa lezione** serve solo come **editor comodo** per:
+**Cursor in questo episodio** serve solo come **editor comodo** per:
 - 📖 Leggere il codice generato da Gemini
 - ✏️ Fare modifiche manuali quando vuoi
 - 🐛 Usare il debugger
@@ -342,7 +363,7 @@ gemini "Ho implementato CORS così: [codice]. Funziona ma è sicuro? Ci sono alt
 
 ### Cursor come Editor (Senza AI)
 
-In questa lezione usiamo Cursor **solo come editor di testo**, senza le funzionalità AI:
+In questo episodio usiamo Cursor **solo come editor di testo**, senza le funzionalità AI:
 - ❌ Non usiamo Cmd/Ctrl + K
 - ❌ Non usiamo Cmd/Ctrl + L
 - ✅ Usiamo solo l'editor per scrivere codice
@@ -484,7 +505,7 @@ Frontend (Vue)                    Backend (Flask)
 ## Struttura del Progetto Backend
 
 ```
-lezione3/
+episodio3/
 ├── venv/              # Ambiente virtuale (NON modificare)
 ├── app.py             # Il file principale del server
 ├── quizzes.json       # Database dei quiz (file JSON)
@@ -575,11 +596,11 @@ Quando avvii sia il backend (Flask) che il frontend (Vue), l'app Vue farà autom
 
 ## Usare Cursor come Editor (Senza AI)
 
-**Importante**: In questa lezione usiamo Cursor **solo come editor di codice**, NON per le sue funzionalità AI!
+**Importante**: In questo episodio usiamo Cursor **solo come editor di codice**, NON per le sue funzionalità AI!
 
 ### Perché Solo come Editor?
 
-Nella Lezione 2 hai usato Cursor con tutte le sue funzionalità AI. Ora sperimentiamo un approccio diverso:
+Nell'episodio 2 hai usato Cursor con tutte le sue funzionalità AI. Ora sperimentiamo un approccio diverso:
 - 📝 Cursor = solo per **scrivere** e **leggere** codice
 - 🤖 Gemini CLI = per **tutta l'intelligenza artificiale**
 
@@ -587,7 +608,7 @@ Questo ti permette di confrontare due workflow diversi!
 
 ### Setup in Cursor
 
-1. Apri la cartella `lezione3` in Cursor
+1. Apri la cartella `episodio3` in Cursor
 2. Apri il terminale integrato (`` Ctrl+` `` o `` Cmd+` `` su Mac)
 3. Crea e attiva l'ambiente virtuale (vedi sopra)
 4. Installa le dipendenze
@@ -1081,7 +1102,7 @@ gemini "Ho questo errore quando uso Gemini CLI: [incolla errore]. Come posso ris
 
 ### L'ambiente virtuale non si attiva
 
-**Problema su Windows**: Errore di ExecutionPolicy (vedi lezione2 per la soluzione PowerShell)
+**Problema su Windows**: Errore di ExecutionPolicy (vedi episodio2 per la soluzione PowerShell)
 
 **Soluzione alternativa**: Usa il Prompt dei Comandi (cmd.exe) invece di PowerShell:
 ```bash
@@ -1117,7 +1138,7 @@ CORS(app)  # Abilita CORS per tutte le route
 **Problema**: `FileNotFoundError: [Errno 2] No such file or directory: 'quizzes.json'`
 
 **Soluzione**:
-1. Assicurati di essere nella cartella `lezione3` quando avvii il server
+1. Assicurati di essere nella cartella `episodio3` quando avvii il server
 2. Crea un file `quizzes.json` vuoto:
    ```json
    []
@@ -1160,7 +1181,7 @@ deactivate
 
 Ogni volta che lavori al progetto:
 
-1. Apri il terminale nella cartella `lezione3`
+1. Apri il terminale nella cartella `episodio3`
 2. Attiva l'ambiente virtuale
    ```bash
    # Windows
@@ -1245,8 +1266,8 @@ gemini "Come posso scrivere test automatici per le mie API Flask? Dammi esempio 
 **Riflessione: Due Approcci AI**
 
 Hai ora provato entrambi gli approcci:
-- 🎨 **Lezione 2**: Cursor AI (integrato) - veloce, magico
-- 💻 **Lezione 3**: Gemini CLI (separato) - più controllo, più consapevole
+- 🎨 **episodio 2**: Cursor AI (integrato) - veloce, magico
+- 💻 **episodio 3**: Gemini CLI (separato) - più controllo, più consapevole
 
 **Domande da porsi:**
 - Quale approccio preferisci e perché?
