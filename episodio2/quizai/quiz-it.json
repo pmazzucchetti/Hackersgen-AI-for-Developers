@@ -1,0 +1,255 @@
+[
+  {
+    "id": "quiz-1",
+    "titolo": "Fondamenti di Programmazione",
+    "domande": [
+      {
+        "id": "q1-1",
+        "testo": "Cosa significa l'acronimo API?",
+        "opzioni": [
+          {
+            "id": "o1-1-1",
+            "testo": "Application Programming Interface",
+            "corretta": true
+          },
+          {
+            "id": "o1-1-2",
+            "testo": "Advanced Programming Integration",
+            "corretta": false
+          },
+          {
+            "id": "o1-1-3",
+            "testo": "Automated Program Interface",
+            "corretta": false
+          },
+          {
+            "id": "o1-1-4",
+            "testo": "Application Process Integration",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1-2",
+        "testo": "Quale struttura dati segue il principio LIFO (Last In First Out)?",
+        "opzioni": [
+          {
+            "id": "o1-2-1",
+            "testo": "Coda (Queue)",
+            "corretta": false
+          },
+          {
+            "id": "o1-2-2",
+            "testo": "Stack (Pila)",
+            "corretta": true
+          },
+          {
+            "id": "o1-2-3",
+            "testo": "Array",
+            "corretta": false
+          },
+          {
+            "id": "o1-2-4",
+            "testo": "Lista collegata",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1-3",
+        "testo": "Quale paradigma di programmazione si basa sul concetto di oggetti?",
+        "opzioni": [
+          {
+            "id": "o1-3-1",
+            "testo": "Programmazione funzionale",
+            "corretta": false
+          },
+          {
+            "id": "o1-3-2",
+            "testo": "Programmazione procedurale",
+            "corretta": false
+          },
+          {
+            "id": "o1-3-3",
+            "testo": "Programmazione orientata agli oggetti",
+            "corretta": true
+          },
+          {
+            "id": "o1-3-4",
+            "testo": "Programmazione logica",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiz-2",
+    "titolo": "Reti e Sicurezza Informatica",
+    "domande": [
+      {
+        "id": "q2-1",
+        "testo": "Quale porta TCP è comunemente utilizzata per il protocollo HTTP?",
+        "opzioni": [
+          {
+            "id": "o2-1-1",
+            "testo": "Porta 80",
+            "corretta": true
+          },
+          {
+            "id": "o2-1-2",
+            "testo": "Porta 443",
+            "corretta": false
+          },
+          {
+            "id": "o2-1-3",
+            "testo": "Porta 21",
+            "corretta": false
+          },
+          {
+            "id": "o2-1-4",
+            "testo": "Porta 25",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2-2",
+        "testo": "Cosa significa l'acronimo HTTPS?",
+        "opzioni": [
+          {
+            "id": "o2-2-1",
+            "testo": "HyperText Transfer Protocol Secure",
+            "corretta": true
+          },
+          {
+            "id": "o2-2-2",
+            "testo": "HyperText Transfer Protocol Standard",
+            "corretta": false
+          },
+          {
+            "id": "o2-2-3",
+            "testo": "HyperText Transfer Protocol System",
+            "corretta": false
+          },
+          {
+            "id": "o2-2-4",
+            "testo": "HyperText Transfer Protocol Service",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2-3",
+        "testo": "Quale tipo di attacco informatico consiste nell'inviare email fraudolente per ottenere informazioni sensibili?",
+        "opzioni": [
+          {
+            "id": "o2-3-1",
+            "testo": "Phishing",
+            "corretta": true
+          },
+          {
+            "id": "o2-3-2",
+            "testo": "DDoS",
+            "corretta": false
+          },
+          {
+            "id": "o2-3-3",
+            "testo": "SQL Injection",
+            "corretta": false
+          },
+          {
+            "id": "o2-3-4",
+            "testo": "XSS",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiz-3",
+    "titolo": "Database e Tecnologie Web",
+    "domande": [
+      {
+        "id": "q3-1",
+        "testo": "Cosa significa l'acronimo SQL?",
+        "opzioni": [
+          {
+            "id": "o3-1-1",
+            "testo": "Structured Query Language",
+            "corretta": true
+          },
+          {
+            "id": "o3-1-2",
+            "testo": "Simple Query Language",
+            "corretta": false
+          },
+          {
+            "id": "o3-1-3",
+            "testo": "Standard Query Language",
+            "corretta": false
+          },
+          {
+            "id": "o3-1-4",
+            "testo": "System Query Language",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3-2",
+        "testo": "Quale linguaggio è principalmente utilizzato per lo sviluppo frontend web?",
+        "opzioni": [
+          {
+            "id": "o3-2-1",
+            "testo": "Python",
+            "corretta": false
+          },
+          {
+            "id": "o3-2-2",
+            "testo": "Java",
+            "corretta": false
+          },
+          {
+            "id": "o3-2-3",
+            "testo": "JavaScript",
+            "corretta": true
+          },
+          {
+            "id": "o3-2-4",
+            "testo": "C++",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3-3",
+        "testo": "Quale comando SQL viene utilizzato per recuperare dati da una tabella?",
+        "opzioni": [
+          {
+            "id": "o3-3-1",
+            "testo": "INSERT",
+            "corretta": false
+          },
+          {
+            "id": "o3-3-2",
+            "testo": "UPDATE",
+            "corretta": false
+          },
+          {
+            "id": "o3-3-3",
+            "testo": "SELECT",
+            "corretta": true
+          },
+          {
+            "id": "o3-3-4",
+            "testo": "DELETE",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  }
+]
+
