@@ -133,6 +133,7 @@
 import { ref, reactive } from 'vue'
 import { useQuizStore } from '@/stores/quiz'
 import type { Quiz, Domanda, Opzione } from '@/types/quiz'
+import { createQuiz as createQuizService } from '@/service/quiz'
 
 interface Props {
   initialQuiz?: Quiz
@@ -282,7 +283,12 @@ const handleSubmit = async () => {
   successMessage.value = ''
 
   try {
-    await quizStore.createQuiz(formData)
+    // await quizStore.createQuiz(formData)
+    await createQuizService(formData) // Direct call for debugging
+    
+    // Manually add to the store for UI update
+    quizStore.quizzes.push(formData)
+
     successMessage.value = 'Quiz salvato con successo!'
     
     // Emetti evento di successo

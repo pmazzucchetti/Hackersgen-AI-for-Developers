@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "quiz_ai_fundamentals",
+    "titolo": "Fondamenti di Sviluppo con AI",
+    "domande": [
+      {
+        "id": "q1_d1",
+        "testo": "Qual è il principale vantaggio di usare un IDE con AI integrata come Cursor?",
+        "opzioni": [
+          {
+            "id": "q1_d1_o1",
+            "testo": "Genera codice automaticamente senza bisogno di capirlo",
+            "corretta": false
+          },
+          {
+            "id": "q1_d1_o2",
+            "testo": "Accelera lo sviluppo mantenendo il controllo sul codice generato",
+            "corretta": true
+          },
+          {
+            "id": "q1_d1_o3",
+            "testo": "Sostituisce completamente la necessità di imparare a programmare",
+            "corretta": false
+          },
+          {
+            "id": "q1_d1_o4",
+            "testo": "Funziona solo con linguaggi specifici come Python",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d2",
+        "testo": "Cosa differenzia Gemini CLI da Cursor AI?",
+        "opzioni": [
+          {
+            "id": "q1_d2_o1",
+            "testo": "Gemini CLI è un agent autonomo da terminale, mentre Cursor ha l'AI integrata nell'editor",
+            "corretta": true
+          },
+          {
+            "id": "q1_d2_o2",
+            "testo": "Gemini CLI funziona solo con Python",
+            "corretta": false
+          },
+          {
+            "id": "q1_d2_o3",
+            "testo": "Cursor non può generare codice, solo suggerirlo",
+            "corretta": false
+          },
+          {
+            "id": "q1_d2_o4",
+            "testo": "Gemini CLI non può modificare file automaticamente",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d3",
+        "testo": "Quale approccio è consigliato quando si usa l'AI per generare codice?",
+        "opzioni": [
+          {
+            "id": "q1_d3_o1",
+            "testo": "Copiare immediatamente il codice generato senza leggerlo",
+            "corretta": false
+          },
+          {
+            "id": "q1_d3_o2",
+            "testo": "Leggere, capire e verificare il codice prima di usarlo",
+            "corretta": true
+          },
+          {
+            "id": "q1_d3_o3",
+            "testo": "Usare solo codice scritto manualmente per garantire qualità",
+            "corretta": false
+          },
+          {
+            "id": "q1_d3_o4",
+            "testo": "Chiedere all'AI di scrivere l'intera applicazione in un solo prompt",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d4",
+        "testo": "Qual è un uso appropriato dell'AI nello sviluppo?",
+        "opzioni": [
+          {
+            "id": "q1_d4_o1",
+            "testo": "Generare codice boilerplate ripetitivo",
+            "corretta": true
+          },
+          {
+            "id": "q1_d4_o2",
+            "testo": "Sostituire completamente la fase di testing",
+            "corretta": false
+          },
+          {
+            "id": "q1_d4_o3",
+            "testo": "Evitare di imparare i fondamenti della programmazione",
+            "corretta": false
+          },
+          {
+            "id": "q1_d4_o4",
+            "testo": "Scrivere codice senza mai controllare la sicurezza",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d5",
+        "testo": "Cosa significa che Gemini CLI è un 'agent autonomo'?",
+        "opzioni": [
+          {
+            "id": "q1_d5_o1",
+            "testo": "Può solo rispondere a domande senza modificare file",
+            "corretta": false
+          },
+          {
+            "id": "q1_d5_o2",
+            "testo": "Può leggere, ragionare e modificare file autonomamente con supervisione umana",
+            "corretta": true
+          },
+          {
+            "id": "q1_d5_o3",
+            "testo": "Funziona senza connessione internet",
+            "corretta": false
+          },
+          {
+            "id": "q1_d5_o4",
+            "testo": "Modifica i file senza chiedere conferma",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d6",
+        "testo": "Quale scorciatoia apre il prompt AI in Cursor per modificare il codice?",
+        "opzioni": [
+          {
+            "id": "q1_d6_o1",
+            "testo": "Cmd/Ctrl + L",
+            "corretta": false
+          },
+          {
+            "id": "q1_d6_o2",
+            "testo": "Cmd/Ctrl + K",
+            "corretta": true
+          },
+          {
+            "id": "q1_d6_o3",
+            "testo": "Cmd/Ctrl + P",
+            "corretta": false
+          },
+          {
+            "id": "q1_d6_o4",
+            "testo": "Tab",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d7",
+        "testo": "Quando NON dovresti fidarti ciecamente dell'AI?",
+        "opzioni": [
+          {
+            "id": "q1_d7_o1",
+            "testo": "Quando genera codice che potrebbe avere vulnerabilità di sicurezza",
+            "corretta": true
+          },
+          {
+            "id": "q1_d7_o2",
+            "testo": "Quando spiega concetti di programmazione",
+            "corretta": false
+          },
+          {
+            "id": "q1_d7_o3",
+            "testo": "Quando suggerisce nomi per variabili",
+            "corretta": false
+          },
+          {
+            "id": "q1_d7_o4",
+            "testo": "Quando formatta il codice",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d8",
+        "testo": "Cosa caratterizza un buon prompt per l'AI?",
+        "opzioni": [
+          {
+            "id": "q1_d8_o1",
+            "testo": "Essere vago per lasciare libertà all'AI",
+            "corretta": false
+          },
+          {
+            "id": "q1_d8_o2",
+            "testo": "Essere specifico e fornire contesto",
+            "corretta": true
+          },
+          {
+            "id": "q1_d8_o3",
+            "testo": "Usare sempre una sola parola",
+            "corretta": false
+          },
+          {
+            "id": "q1_d8_o4",
+            "testo": "Non includere esempi o requisiti",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d9",
+        "testo": "Qual è il workflow consigliato quando si usa Gemini CLI?",
+        "opzioni": [
+          {
+            "id": "q1_d9_o1",
+            "testo": "Chiedere, confermare, eseguire senza verificare",
+            "corretta": false
+          },
+          {
+            "id": "q1_d9_o2",
+            "testo": "Chiedere, Gemini modifica, verificare in editor, testare",
+            "corretta": true
+          },
+          {
+            "id": "q1_d9_o3",
+            "testo": "Copiare manualmente tutto il codice dall'output",
+            "corretta": false
+          },
+          {
+            "id": "q1_d9_o4",
+            "testo": "Usarlo solo per rispondere a domande teoriche",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q1_d10",
+        "testo": "Quale affermazione descrive meglio la filosofia 'AI come partner'?",
+        "opzioni": [
+          {
+            "id": "q1_d10_o1",
+            "testo": "L'AI sostituisce lo sviluppatore",
+            "corretta": false
+          },
+          {
+            "id": "q1_d10_o2",
+            "testo": "L'AI accelera il lavoro ma lo sviluppatore mantiene il controllo e la comprensione",
+            "corretta": true
+          },
+          {
+            "id": "q1_d10_o3",
+            "testo": "L'AI è utile solo per task non importanti",
+            "corretta": false
+          },
+          {
+            "id": "q1_d10_o4",
+            "testo": "Lo sviluppatore non deve mai verificare il codice AI",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiz_vue_frontend",
+    "titolo": "Vue.js e Frontend Moderno",
+    "domande": [
+      {
+        "id": "q2_d1",
+        "testo": "Qual è la differenza principale tra 'ref' e 'reactive' in Vue 3?",
+        "opzioni": [
+          {
+            "id": "q2_d1_o1",
+            "testo": "ref è per valori primitivi, reactive per oggetti complessi",
+            "corretta": true
+          },
+          {
+            "id": "q2_d1_o2",
+            "testo": "ref è deprecato in Vue 3",
+            "corretta": false
+          },
+          {
+            "id": "q2_d1_o3",
+            "testo": "reactive funziona solo con array",
+            "corretta": false
+          },
+          {
+            "id": "q2_d1_o4",
+            "testo": "Non c'è differenza, sono sinonimi",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d2",
+        "testo": "Cosa fa la direttiva 'v-for' in Vue?",
+        "opzioni": [
+          {
+            "id": "q2_d2_o1",
+            "testo": "Crea un loop condizionale",
+            "corretta": false
+          },
+          {
+            "id": "q2_d2_o2",
+            "testo": "Itera su array o oggetti per renderizzare elementi multipli",
+            "corretta": true
+          },
+          {
+            "id": "q2_d2_o3",
+            "testo": "Definisce una funzione helper",
+            "corretta": false
+          },
+          {
+            "id": "q2_d2_o4",
+            "testo": "Importa componenti esterni",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d3",
+        "testo": "Cos'è Pinia in Vue 3?",
+        "opzioni": [
+          {
+            "id": "q2_d3_o1",
+            "testo": "Un framework CSS",
+            "corretta": false
+          },
+          {
+            "id": "q2_d3_o2",
+            "testo": "Un sistema di routing",
+            "corretta": false
+          },
+          {
+            "id": "q2_d3_o3",
+            "testo": "Una libreria per la gestione dello stato globale",
+            "corretta": true
+          },
+          {
+            "id": "q2_d3_o4",
+            "testo": "Un tool di testing",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d4",
+        "testo": "Qual è il vantaggio di usare '<script setup>' in Vue 3?",
+        "opzioni": [
+          {
+            "id": "q2_d4_o1",
+            "testo": "Rende il codice più verboso",
+            "corretta": false
+          },
+          {
+            "id": "q2_d4_o2",
+            "testo": "Sintassi più concisa con Composition API",
+            "corretta": true
+          },
+          {
+            "id": "q2_d4_o3",
+            "testo": "È necessario solo per TypeScript",
+            "corretta": false
+          },
+          {
+            "id": "q2_d4_o4",
+            "testo": "Funziona solo con Vue Router",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d5",
+        "testo": "Cosa fa 'v-model' in Vue?",
+        "opzioni": [
+          {
+            "id": "q2_d5_o1",
+            "testo": "Crea un binding bidirezionale tra input e dati",
+            "corretta": true
+          },
+          {
+            "id": "q2_d5_o2",
+            "testo": "Definisce un modello di dati readonly",
+            "corretta": false
+          },
+          {
+            "id": "q2_d5_o3",
+            "testo": "Importa un componente",
+            "corretta": false
+          },
+          {
+            "id": "q2_d5_o4",
+            "testo": "Valida i form automaticamente",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d6",
+        "testo": "Cos'è Vite nel contesto di Vue?",
+        "opzioni": [
+          {
+            "id": "q2_d6_o1",
+            "testo": "Una libreria per animazioni",
+            "corretta": false
+          },
+          {
+            "id": "q2_d6_o2",
+            "testo": "Un build tool veloce per sviluppo frontend",
+            "corretta": true
+          },
+          {
+            "id": "q2_d6_o3",
+            "testo": "Un database NoSQL",
+            "corretta": false
+          },
+          {
+            "id": "q2_d6_o4",
+            "testo": "Un framework CSS",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d7",
+        "testo": "Come si passano dati da un componente genitore a un figlio in Vue?",
+        "opzioni": [
+          {
+            "id": "q2_d7_o1",
+            "testo": "Tramite eventi",
+            "corretta": false
+          },
+          {
+            "id": "q2_d7_o2",
+            "testo": "Tramite props",
+            "corretta": true
+          },
+          {
+            "id": "q2_d7_o3",
+            "testo": "Tramite v-model",
+            "corretta": false
+          },
+          {
+            "id": "q2_d7_o4",
+            "testo": "Tramite slots",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d8",
+        "testo": "Qual è il ruolo di Vue Router?",
+        "opzioni": [
+          {
+            "id": "q2_d8_o1",
+            "testo": "Gestire la navigazione tra pagine/viste in un'app Vue",
+            "corretta": true
+          },
+          {
+            "id": "q2_d8_o2",
+            "testo": "Gestire chiamate API",
+            "corretta": false
+          },
+          {
+            "id": "q2_d8_o3",
+            "testo": "Validare form",
+            "corretta": false
+          },
+          {
+            "id": "q2_d8_o4",
+            "testo": "Compilare il codice TypeScript",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d9",
+        "testo": "Cosa fa 'computed' in Vue?",
+        "opzioni": [
+          {
+            "id": "q2_d9_o1",
+            "testo": "Crea una proprietà calcolata che si aggiorna automaticamente quando le dipendenze cambiano",
+            "corretta": true
+          },
+          {
+            "id": "q2_d9_o2",
+            "testo": "Esegue codice quando il componente viene montato",
+            "corretta": false
+          },
+          {
+            "id": "q2_d9_o3",
+            "testo": "Definisce uno stato reattivo",
+            "corretta": false
+          },
+          {
+            "id": "q2_d9_o4",
+            "testo": "Importa dipendenze esterne",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q2_d10",
+        "testo": "Qual è il comando per avviare un'app Vue creata con Vite?",
+        "opzioni": [
+          {
+            "id": "q2_d10_o1",
+            "testo": "npm start",
+            "corretta": false
+          },
+          {
+            "id": "q2_d10_o2",
+            "testo": "npm run dev",
+            "corretta": true
+          },
+          {
+            "id": "q2_d10_o3",
+            "testo": "npm serve",
+            "corretta": false
+          },
+          {
+            "id": "q2_d10_o4",
+            "testo": "vite start",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiz_python_flask_api",
+    "titolo": "Python, Flask e Backend API",
+    "domande": [
+      {
+        "id": "q3_d1",
+        "testo": "Cosa fa il decoratore '@app.route()' in Flask?",
+        "opzioni": [
+          {
+            "id": "q3_d1_o1",
+            "testo": "Definisce un percorso URL e associa una funzione handler",
+            "corretta": true
+          },
+          {
+            "id": "q3_d1_o2",
+            "testo": "Valida i dati in ingresso",
+            "corretta": false
+          },
+          {
+            "id": "q3_d1_o3",
+            "testo": "Crea un database",
+            "corretta": false
+          },
+          {
+            "id": "q3_d1_o4",
+            "testo": "Gestisce automaticamente gli errori",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d2",
+        "testo": "Qual è la funzione di 'jsonify()' in Flask?",
+        "opzioni": [
+          {
+            "id": "q3_d2_o1",
+            "testo": "Legge file JSON dal disco",
+            "corretta": false
+          },
+          {
+            "id": "q3_d2_o2",
+            "testo": "Converte dati Python in una risposta JSON HTTP",
+            "corretta": true
+          },
+          {
+            "id": "q3_d2_o3",
+            "testo": "Valida la struttura JSON",
+            "corretta": false
+          },
+          {
+            "id": "q3_d2_o4",
+            "testo": "Comprime i dati JSON",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d3",
+        "testo": "Cosa significa CORS?",
+        "opzioni": [
+          {
+            "id": "q3_d3_o1",
+            "testo": "Cross-Origin Resource Sharing",
+            "corretta": true
+          },
+          {
+            "id": "q3_d3_o2",
+            "testo": "Cross-Origin Request Security",
+            "corretta": false
+          },
+          {
+            "id": "q3_d3_o3",
+            "testo": "Core Origin Resource System",
+            "corretta": false
+          },
+          {
+            "id": "q3_d3_o4",
+            "testo": "Common Origin Resource Standard",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d4",
+        "testo": "Perché si usa un ambiente virtuale (venv) in Python?",
+        "opzioni": [
+          {
+            "id": "q3_d4_o1",
+            "testo": "Per velocizzare l'esecuzione del codice",
+            "corretta": false
+          },
+          {
+            "id": "q3_d4_o2",
+            "testo": "Per isolare le dipendenze del progetto",
+            "corretta": true
+          },
+          {
+            "id": "q3_d4_o3",
+            "testo": "Per compilare Python in C",
+            "corretta": false
+          },
+          {
+            "id": "q3_d4_o4",
+            "testo": "Per creare interfacce grafiche",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d5",
+        "testo": "Qual è la differenza tra i metodi HTTP GET e POST?",
+        "opzioni": [
+          {
+            "id": "q3_d5_o1",
+            "testo": "GET recupera dati, POST invia dati per creare/modificare risorse",
+            "corretta": true
+          },
+          {
+            "id": "q3_d5_o2",
+            "testo": "Non c'è differenza, sono intercambiabili",
+            "corretta": false
+          },
+          {
+            "id": "q3_d5_o3",
+            "testo": "POST è più veloce di GET",
+            "corretta": false
+          },
+          {
+            "id": "q3_d5_o4",
+            "testo": "GET funziona solo con JSON",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d6",
+        "testo": "Cosa rappresenta il codice HTTP 404?",
+        "opzioni": [
+          {
+            "id": "q3_d6_o1",
+            "testo": "Risorsa creata con successo",
+            "corretta": false
+          },
+          {
+            "id": "q3_d6_o2",
+            "testo": "Risorsa non trovata",
+            "corretta": true
+          },
+          {
+            "id": "q3_d6_o3",
+            "testo": "Errore del server",
+            "corretta": false
+          },
+          {
+            "id": "q3_d6_o4",
+            "testo": "Accesso negato",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d7",
+        "testo": "Cosa fa 'pip' in Python?",
+        "opzioni": [
+          {
+            "id": "q3_d7_o1",
+            "testo": "Compila il codice Python",
+            "corretta": false
+          },
+          {
+            "id": "q3_d7_o2",
+            "testo": "Gestisce l'installazione di pacchetti e librerie Python",
+            "corretta": true
+          },
+          {
+            "id": "q3_d7_o3",
+            "testo": "Esegue test automatici",
+            "corretta": false
+          },
+          {
+            "id": "q3_d7_o4",
+            "testo": "Crea interfacce grafiche",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d8",
+        "testo": "Perché è importante validare i dati in un endpoint API?",
+        "opzioni": [
+          {
+            "id": "q3_d8_o1",
+            "testo": "Per velocizzare le risposte",
+            "corretta": false
+          },
+          {
+            "id": "q3_d8_o2",
+            "testo": "Per prevenire errori e vulnerabilità di sicurezza",
+            "corretta": true
+          },
+          {
+            "id": "q3_d8_o3",
+            "testo": "È opzionale e non necessaria",
+            "corretta": false
+          },
+          {
+            "id": "q3_d8_o4",
+            "testo": "Solo per rendere il codice più lungo",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d9",
+        "testo": "Cosa rappresenta il codice HTTP 201?",
+        "opzioni": [
+          {
+            "id": "q3_d9_o1",
+            "testo": "Richiesta accettata",
+            "corretta": false
+          },
+          {
+            "id": "q3_d9_o2",
+            "testo": "Risorsa creata con successo",
+            "corretta": true
+          },
+          {
+            "id": "q3_d9_o3",
+            "testo": "Errore di validazione",
+            "corretta": false
+          },
+          {
+            "id": "q3_d9_o4",
+            "testo": "Redirect permanente",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q3_d10",
+        "testo": "Cos'è 'request.json' in Flask?",
+        "opzioni": [
+          {
+            "id": "q3_d10_o1",
+            "testo": "Un file di configurazione",
+            "corretta": false
+          },
+          {
+            "id": "q3_d10_o2",
+            "testo": "L'oggetto che contiene i dati JSON inviati nella richiesta HTTP",
+            "corretta": true
+          },
+          {
+            "id": "q3_d10_o3",
+            "testo": "Un metodo per salvare file JSON",
+            "corretta": false
+          },
+          {
+            "id": "q3_d10_o4",
+            "testo": "Una libreria esterna",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiz_prompt_engineering",
+    "titolo": "Prompt Engineering e Tool AI",
+    "domande": [
+      {
+        "id": "q4_d1",
+        "testo": "Cos'è il Prompt Engineering?",
+        "opzioni": [
+          {
+            "id": "q4_d1_o1",
+            "testo": "Un linguaggio di programmazione",
+            "corretta": false
+          },
+          {
+            "id": "q4_d1_o2",
+            "testo": "L'arte di formulare domande efficaci per ottenere risposte migliori dall'AI",
+            "corretta": true
+          },
+          {
+            "id": "q4_d1_o3",
+            "testo": "Un framework JavaScript",
+            "corretta": false
+          },
+          {
+            "id": "q4_d1_o4",
+            "testo": "Un tool di debugging",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d2",
+        "testo": "Quale prompt è più efficace?",
+        "opzioni": [
+          {
+            "id": "q4_d2_o1",
+            "testo": "\"Crea codice\"",
+            "corretta": false
+          },
+          {
+            "id": "q4_d2_o2",
+            "testo": "\"Crea un endpoint Flask POST /quizzes che valida title e questions, restituisce 400 se invalido\"",
+            "corretta": true
+          },
+          {
+            "id": "q4_d2_o3",
+            "testo": "\"Fai qualcosa\"",
+            "corretta": false
+          },
+          {
+            "id": "q4_d2_o4",
+            "testo": "\"Aiutami\"",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d3",
+        "testo": "Cosa significa dare 'contesto' in un prompt?",
+        "opzioni": [
+          {
+            "id": "q4_d3_o1",
+            "testo": "Scrivere un prompt molto lungo",
+            "corretta": false
+          },
+          {
+            "id": "q4_d3_o2",
+            "testo": "Fornire informazioni sul progetto, tecnologie usate e obiettivo",
+            "corretta": true
+          },
+          {
+            "id": "q4_d3_o3",
+            "testo": "Usare parole complesse",
+            "corretta": false
+          },
+          {
+            "id": "q4_d3_o4",
+            "testo": "Chiedere più volte la stessa cosa",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d4",
+        "testo": "Come si può migliorare la qualità delle risposte AI per il debugging?",
+        "opzioni": [
+          {
+            "id": "q4_d4_o1",
+            "testo": "Dire solo \"ho un errore\"",
+            "corretta": false
+          },
+          {
+            "id": "q4_d4_o2",
+            "testo": "Includere l'errore completo, il codice e cosa si stava facendo",
+            "corretta": true
+          },
+          {
+            "id": "q4_d4_o3",
+            "testo": "Chiedere una soluzione senza fornire dettagli",
+            "corretta": false
+          },
+          {
+            "id": "q4_d4_o4",
+            "testo": "Copiare solo la prima riga dell'errore",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d5",
+        "testo": "Quale approccio è migliore quando l'AI genera codice con un bug?",
+        "opzioni": [
+          {
+            "id": "q4_d5_o1",
+            "testo": "Abbandonare l'uso dell'AI completamente",
+            "corretta": false
+          },
+          {
+            "id": "q4_d5_o2",
+            "testo": "Chiedere all'AI di spiegare il bug e come risolverlo, poi verificare la soluzione",
+            "corretta": true
+          },
+          {
+            "id": "q4_d5_o3",
+            "testo": "Usare il codice buggy senza verificare",
+            "corretta": false
+          },
+          {
+            "id": "q4_d5_o4",
+            "testo": "Rigenerare il codice infinite volte sperando vada bene",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d6",
+        "testo": "Quando si chiede all'AI di refactorizzare codice, cosa è importante specificare?",
+        "opzioni": [
+          {
+            "id": "q4_d6_o1",
+            "testo": "Niente, l'AI sa sempre cosa fare",
+            "corretta": false
+          },
+          {
+            "id": "q4_d6_o2",
+            "testo": "Gli obiettivi del refactoring (es. ridurre duplicazione, migliorare leggibilità)",
+            "corretta": true
+          },
+          {
+            "id": "q4_d6_o3",
+            "testo": "Solo dire \"refactorizza\"",
+            "corretta": false
+          },
+          {
+            "id": "q4_d6_o4",
+            "testo": "Il proprio linguaggio di programmazione preferito",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d7",
+        "testo": "Quale delle seguenti NON è una buona pratica per i prompt?",
+        "opzioni": [
+          {
+            "id": "q4_d7_o1",
+            "testo": "Essere specifici sui requisiti",
+            "corretta": false
+          },
+          {
+            "id": "q4_d7_o2",
+            "testo": "Fornire esempi quando utile",
+            "corretta": false
+          },
+          {
+            "id": "q4_d7_o3",
+            "testo": "Usare prompt vaghi aspettandosi risultati perfetti",
+            "corretta": true
+          },
+          {
+            "id": "q4_d7_o4",
+            "testo": "Chiedere spiegazioni oltre al codice",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d8",
+        "testo": "Come si può usare l'AI per imparare concetti di programmazione?",
+        "opzioni": [
+          {
+            "id": "q4_d8_o1",
+            "testo": "Chiedere solo codice senza spiegazioni",
+            "corretta": false
+          },
+          {
+            "id": "q4_d8_o2",
+            "testo": "Chiedere spiegazioni semplici con esempi pratici",
+            "corretta": true
+          },
+          {
+            "id": "q4_d8_o3",
+            "testo": "Copiare tutto senza leggere",
+            "corretta": false
+          },
+          {
+            "id": "q4_d8_o4",
+            "testo": "Non usare mai l'AI per imparare",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d9",
+        "testo": "Qual è il vantaggio della modalità chat interattiva di Gemini CLI?",
+        "opzioni": [
+          {
+            "id": "q4_d9_o1",
+            "testo": "È più veloce delle domande singole",
+            "corretta": false
+          },
+          {
+            "id": "q4_d9_o2",
+            "testo": "Mantiene il contesto tra domande consecutive",
+            "corretta": true
+          },
+          {
+            "id": "q4_d9_o3",
+            "testo": "Genera codice migliore",
+            "corretta": false
+          },
+          {
+            "id": "q4_d9_o4",
+            "testo": "Non richiede autenticazione",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q4_d10",
+        "testo": "Cosa si dovrebbe fare prima di applicare un suggerimento dell'AI per la sicurezza?",
+        "opzioni": [
+          {
+            "id": "q4_d10_o1",
+            "testo": "Applicarlo immediatamente senza verificare",
+            "corretta": false
+          },
+          {
+            "id": "q4_d10_o2",
+            "testo": "Verificare che il suggerimento non introduca vulnerabilità e testarlo",
+            "corretta": true
+          },
+          {
+            "id": "q4_d10_o3",
+            "testo": "Ignorare tutti i suggerimenti di sicurezza",
+            "corretta": false
+          },
+          {
+            "id": "q4_d10_o4",
+            "testo": "Chiedere conferma all'AI se è sicuro",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiz_fullstack_best_practices",
+    "titolo": "Architettura Full-Stack e Best Practices",
+    "domande": [
+      {
+        "id": "q5_d1",
+        "testo": "Cos'è un'architettura client-server in un'applicazione full-stack?",
+        "opzioni": [
+          {
+            "id": "q5_d1_o1",
+            "testo": "Il frontend (client) richiede dati al backend (server) tramite API",
+            "corretta": true
+          },
+          {
+            "id": "q5_d1_o2",
+            "testo": "Tutto il codice gira sul browser",
+            "corretta": false
+          },
+          {
+            "id": "q5_d1_o3",
+            "testo": "Il database comunica direttamente col browser",
+            "corretta": false
+          },
+          {
+            "id": "q5_d1_o4",
+            "testo": "Il server invia codice HTML statico",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d2",
+        "testo": "Perché è importante separare frontend e backend?",
+        "opzioni": [
+          {
+            "id": "q5_d2_o1",
+            "testo": "Non è importante, si può fare tutto insieme",
+            "corretta": false
+          },
+          {
+            "id": "q5_d2_o2",
+            "testo": "Per scalabilità, manutenibilità e possibilità di avere team separati",
+            "corretta": true
+          },
+          {
+            "id": "q5_d2_o3",
+            "testo": "Solo per rendere il progetto più complicato",
+            "corretta": false
+          },
+          {
+            "id": "q5_d2_o4",
+            "testo": "Per usare più linguaggi senza motivo",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d3",
+        "testo": "Cosa significa 'hot reload' in sviluppo frontend?",
+        "opzioni": [
+          {
+            "id": "q5_d3_o1",
+            "testo": "Il server si spegne automaticamente",
+            "corretta": false
+          },
+          {
+            "id": "q5_d3_o2",
+            "testo": "Le modifiche al codice si riflettono nel browser automaticamente senza ricaricare la pagina",
+            "corretta": true
+          },
+          {
+            "id": "q5_d3_o3",
+            "testo": "Il codice viene compilato più velocemente",
+            "corretta": false
+          },
+          {
+            "id": "q5_d3_o4",
+            "testo": "Il database si aggiorna in tempo reale",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d4",
+        "testo": "Qual è una best practice per gestire gli errori in un'API?",
+        "opzioni": [
+          {
+            "id": "q5_d4_o1",
+            "testo": "Nascondere tutti gli errori all'utente",
+            "corretta": false
+          },
+          {
+            "id": "q5_d4_o2",
+            "testo": "Restituire codici HTTP appropriati e messaggi di errore chiari",
+            "corretta": true
+          },
+          {
+            "id": "q5_d4_o3",
+            "testo": "Mostrare lo stack trace completo nel frontend",
+            "corretta": false
+          },
+          {
+            "id": "q5_d4_o4",
+            "testo": "Ignorare gli errori e continuare l'esecuzione",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d5",
+        "testo": "Perché è importante validare i dati sia nel frontend che nel backend?",
+        "opzioni": [
+          {
+            "id": "q5_d5_o1",
+            "testo": "Non è necessario validare in entrambi",
+            "corretta": false
+          },
+          {
+            "id": "q5_d5_o2",
+            "testo": "Frontend per UX immediata, backend per sicurezza (il frontend può essere bypassato)",
+            "corretta": true
+          },
+          {
+            "id": "q5_d5_o3",
+            "testo": "Solo per rallentare l'applicazione",
+            "corretta": false
+          },
+          {
+            "id": "q5_d5_o4",
+            "testo": "Basta validare solo nel frontend",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d6",
+        "testo": "Cos'è un file 'requirements.txt' in Python?",
+        "opzioni": [
+          {
+            "id": "q5_d6_o1",
+            "testo": "Un file di documentazione",
+            "corretta": false
+          },
+          {
+            "id": "q5_d6_o2",
+            "testo": "Un file che elenca tutte le dipendenze del progetto",
+            "corretta": true
+          },
+          {
+            "id": "q5_d6_o3",
+            "testo": "Il file principale dell'applicazione",
+            "corretta": false
+          },
+          {
+            "id": "q5_d6_o4",
+            "testo": "Un file di configurazione del database",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d7",
+        "testo": "Qual è il vantaggio di usare TypeScript con Vue?",
+        "opzioni": [
+          {
+            "id": "q5_d7_o1",
+            "testo": "Nessuno, è solo più complicato",
+            "corretta": false
+          },
+          {
+            "id": "q5_d7_o2",
+            "testo": "Type safety e migliore autocomplete, riducendo errori a runtime",
+            "corretta": true
+          },
+          {
+            "id": "q5_d7_o3",
+            "testo": "Rende il codice più veloce",
+            "corretta": false
+          },
+          {
+            "id": "q5_d7_o4",
+            "testo": "È obbligatorio per Vue 3",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d8",
+        "testo": "Cosa significa 'debug mode' in Flask?",
+        "opzioni": [
+          {
+            "id": "q5_d8_o1",
+            "testo": "Il server non parte",
+            "corretta": false
+          },
+          {
+            "id": "q5_d8_o2",
+            "testo": "Auto-reload delle modifiche e stack trace dettagliati (solo per sviluppo)",
+            "corretta": true
+          },
+          {
+            "id": "q5_d8_o3",
+            "testo": "Il server va più veloce",
+            "corretta": false
+          },
+          {
+            "id": "q5_d8_o4",
+            "testo": "Una modalità sicura per produzione",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d9",
+        "testo": "Quale porta di default usa Flask per il server di sviluppo?",
+        "opzioni": [
+          {
+            "id": "q5_d9_o1",
+            "testo": "3000",
+            "corretta": false
+          },
+          {
+            "id": "q5_d9_o2",
+            "testo": "5000",
+            "corretta": true
+          },
+          {
+            "id": "q5_d9_o3",
+            "testo": "8080",
+            "corretta": false
+          },
+          {
+            "id": "q5_d9_o4",
+            "testo": "5173",
+            "corretta": false
+          }
+        ]
+      },
+      {
+        "id": "q5_d10",
+        "testo": "Qual è una best practice per testare le API durante lo sviluppo?",
+        "opzioni": [
+          {
+            "id": "q5_d10_o1",
+            "testo": "Testarle solo dal frontend",
+            "corretta": false
+          },
+          {
+            "id": "q5_d10_o2",
+            "testo": "Usare tool come EchoAPI, Postman o curl per testare gli endpoint isolatamente",
+            "corretta": true
+          },
+          {
+            "id": "q5_d10_o3",
+            "testo": "Non testare mai le API",
+            "corretta": false
+          },
+          {
+            "id": "q5_d10_o4",
+            "testo": "Affidarsi solo all'AI per il testing",
+            "corretta": false
+          }
+        ]
+      }
+    ]
+  }
+]

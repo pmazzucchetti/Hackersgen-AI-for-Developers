@@ -1,10 +1,11 @@
 import type { Quiz } from '@/types/quiz';
-import quizData from '../../quiz-it.json';
+
+const API_BASE_URL = 'http://127.0.0.1:5000';
 
 /**
- * Database in memoria per i quiz creati
+ * Cache in memoria per i quiz (sincronizzata con il backend)
  */
-let quizzesInMemory: Quiz[] = [...(quizData as Quiz[])];
+let quizzesInMemory: Quiz[] = [];
 
 /**
  * Funzione helper per creare un delay
@@ -15,15 +16,27 @@ const delay = (ms: number): Promise<void> => {
 };
 
 /**
- * Recupera tutti i quiz dal database in memoria con un delay di 1 secondo
+ * Recupera tutti i quiz dal backend
  * @returns Promise che risolve con un array di Quiz
  */
 export const getAllQuiz = async (): Promise<Quiz[]> => {
-  // Delay di 1 secondo per simulare chiamata API
-  await delay(1000);
-  
-  // Restituisce una copia dei dati
-  return [...quizzesInMemory];
+  const response = await fetch(`${API_BASE_URL}/api/quiz`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error('Errore durante il recupero dei quiz');
+  }
+
+  const quizzes = await response.json();
+
+  // Aggiorna la cache in memoria con i dati del backend
+  quizzesInMemory = [...quizzes];
+
+  return quizzes;
 };
 
 /**
@@ -32,23 +45,29 @@ export const getAllQuiz = async (): Promise<Quiz[]> => {
  * @returns Promise che risolve con il quiz creato
  */
 export const createQuiz = async (quiz: Quiz): Promise<Quiz> => {
-  // Delay di 800ms per simulare chiamata API
-  await delay(800);
-  
-  // Verifica che il quiz non esista già
-  const exists = quizzesInMemory.some(q => q.id === quiz.id);
-  if (exists) {
-    // Se esiste, aggiorna invece di creare
-    const index = quizzesInMemory.findIndex(q => q.id === quiz.id);
-    quizzesInMemory[index] = { ...quiz };
-    return { ...quiz };
+  const response = await fetch(`${API_BASE_URL}/api/quiz`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(quiz)
+  });
+
+  if (!response.ok) {
+    throw new Error('Errore durante la creazione del quiz');
   }
-  
-  // Aggiungi il nuovo quiz al database
-  const newQuiz = { ...quiz };
-  quizzesInMemory.push(newQuiz);
-  
-  return newQuiz;
+
+  // Il backend risponde con un messaggio e l'ID del quiz,
+  // ma per coerenza con la funzione originale, restituiamo l'oggetto quiz completo.
+  // In un'applicazione reale, la risposta del backend potrebbe essere più completa.
+  const result = await response.json();
+  console.log('Quiz salvato con successo:', result);
+
+  // Dato che il backend non restituisce il quiz completo,
+  // lo aggiungiamo manualmente alla nostra cache in memoria per mantenere la UI aggiornata.
+  quizzesInMemory.push(quiz);
+
+  return quiz;
 };
 
 /**
