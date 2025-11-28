@@ -586,7 +586,7 @@ Vedrai i quiz in formato JSON (funziona solo per GET).
 
 ### 2. Con Cursor (Consigliato)
 
-Cursor ha strumenti integrati per testare le API. Puoi usare estensioni come **REST Client** o **Thunder Client**.
+Cursor ha strumenti integrati per testare le API. Puoi usare estensioni come **REST Client** o **EchoAPI**.
 
 ### 3. Con il Frontend Vue
 
@@ -629,7 +629,7 @@ Questo ti permette di confrontare due workflow diversi!
 
 1. **Python** (by Microsoft): Supporto completo per Python
 2. **Pylance**: Autocomplete standard (non AI) per Python
-3. **Thunder Client**: Per testare le API direttamente in Cursor
+3. **EchoAPI**: Per testare le API direttamente in Cursor
 
 
 ## 🤖 Sviluppare Backend con Gemini CLI: Esempi Pratici
@@ -688,7 +688,7 @@ def delete_quiz(id):
 # Avvia il server
 python app.py
 
-# Testa con curl o Thunder Client
+# Testa con curl o EchoAPI
 ```
 
 ### Esempio 2: Far Spiegare il Codice Esistente
