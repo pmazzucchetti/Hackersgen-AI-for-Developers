@@ -17,6 +17,10 @@ const startQuiz = (quizId: string) => {
 const createNewQuiz = () => {
   router.push('/create')
 }
+
+const generateQuiz = () => {
+  router.push('/generate-quiz')
+}
 </script>
 
 <template>
@@ -24,9 +28,14 @@ const createNewQuiz = () => {
     <header>
       <h1>📚 I Miei Quiz</h1>
       <p class="subtitle">Scegli un quiz per iniziare</p>
-      <button @click="createNewQuiz" class="create-btn">
-        ➕ Crea Nuovo Quiz
-      </button>
+      <div class="button-group">
+        <button @click="createNewQuiz" class="create-btn">
+          ➕ Crea Nuovo Quiz
+        </button>
+        <button @click="generateQuiz" class="generate-btn">
+          🤖 Genera Quiz
+        </button>
+      </div>
     </header>
 
     <div v-if="quizStore.quizzes.length === 0" class="loading">
@@ -65,6 +74,14 @@ header {
   position: relative;
 }
 
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .create-btn {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -74,7 +91,6 @@ header {
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  margin-top: 1.5rem;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
@@ -85,6 +101,28 @@ header {
 }
 
 .create-btn:active {
+  transform: translateY(-1px);
+}
+
+.generate-btn {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+}
+
+.generate-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(245, 87, 108, 0.5);
+}
+
+.generate-btn:active {
   transform: translateY(-1px);
 }
 

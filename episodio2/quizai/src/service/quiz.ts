@@ -122,3 +122,29 @@ export const updateQuiz = async (id: string, updatedQuiz: Partial<Quiz>): Promis
   return { ...quizzesInMemory[index] } as Quiz;
 };
 
+/**
+ * Genera un nuovo quiz tramite AI
+ * @param params - Parametri per la generazione del quiz (tema, difficoltà, numeroDomande)
+ * @returns Promise che risolve con il quiz generato
+ */
+export const generateQuiz = async (params: {
+  tema: string;
+  difficolta: 'facile' | 'medio' | 'difficile';
+  numeroDomande: number;
+}): Promise<Quiz> => {
+  const response = await fetch(`${API_BASE_URL}/api/generate-quiz`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(params)
+  });
+
+  if (!response.ok) {
+    throw new Error('Errore durante la generazione del quiz');
+  }
+
+  const result = await response.json();
+  return result;
+};
+

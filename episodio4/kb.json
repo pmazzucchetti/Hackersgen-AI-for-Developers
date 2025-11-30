@@ -1,0 +1,70 @@
+{
+    "records": [
+        {
+            "id": 1,
+            "nome_macchina": "srv-web-01",
+            "ip": "10.0.0.101",
+            "stato": "online",
+            "posizione": "DataCenter A - Rack 12U",
+            "descrizione": "Web server (Nginx + Node.js)",
+            "os": "Ubuntu Server 22.04 LTS",
+            "uptime": "34 days",
+            "ultima_manutenzione": "2025-06-15"
+        },
+        {
+            "id": 2,
+            "nome_macchina": "srv-db-02",
+            "ip": "10.0.0.102",
+            "stato": "manutenzione",
+            "posizione": "DataCenter B - Rack 5U",
+            "descrizione": "Database server (PostgreSQL)",
+            "os": "Debian 12",
+            "uptime": "12 days",
+            "ultima_manutenzione": "2025-07-05"
+        },
+        {
+            "id": 3,
+            "nome_macchina": "srv-backup-01",
+            "ip": "10.0.0.103",
+            "stato": "offline",
+            "posizione": "DataCenter A - Rack 20U",
+            "descrizione": "Server di backup (rsync + ZFS)",
+            "os": "FreeBSD 14",
+            "uptime": "0 days",
+            "ultima_manutenzione": "2025-06-01"
+        },
+        {
+            "id": 4,
+            "nome_macchina": "srv-app-01",
+            "ip": "10.0.0.104",
+            "stato": "online",
+            "posizione": "DataCenter B - Rack 3U",
+            "descrizione": "Application server (Java Spring Boot)",
+            "os": "Ubuntu Server 22.04 LTS",
+            "uptime": "58 days",
+            "ultima_manutenzione": "2025-05-30"
+        },
+        {
+            "id": 5,
+            "nome_macchina": "srv-cache-01",
+            "ip": "10.0.0.105",
+            "stato": "online",
+            "posizione": "DataCenter A - Rack 14U",
+            "descrizione": "Caching server (Redis)",
+            "os": "Debian 11",
+            "uptime": "76 days",
+            "ultima_manutenzione": "2025-04-22"
+        },
+        {
+            "id": 6,
+            "nome_macchina": "srv-mail-01",
+            "ip": "10.0.0.106",
+            "stato": "online",
+            "posizione": "DataCenter C - Rack 7U",
+            "descrizione": "Mail server (Postfix + Dovecot)",
+            "os": "Ubuntu Server 22.04 LTS",
+            "uptime": "143 days",
+            "ultima_manutenzione": "2025-03-10"
+        }
+    ]
+}
